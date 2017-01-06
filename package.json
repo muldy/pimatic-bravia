@@ -1,23 +1,23 @@
 {
-  "name": "pimatic-kodi",
-  "description": "Pimatic plugin for XBMC/Kodi",
-  "author": "Fjux <Fjux>",
-  "main": "kodi-plugin",
+  "name": "pimatic-bravia",
+  "description": "Pimatic plugin for Sony Bravia Tvs",
+  "author": "Muldy <Muldy>",
+  "main": "bravia-plugin",
   "files": [
-    "kodi-plugin.coffee",
+    "bravia-plugin.coffee",
     "README.md",
-    "kodi-plugin-config-schema.coffee",
+    "bravia-plugin-config-schema.coffee",
     "device-config-schema.coffee"
   ],
-  "version": "0.1.6",
-  "homepage": "https://github.com/pimatic/pimatic-kodi",
+  "version": "0.1.1",
+  "homepage": "https://github.com/muldy/pimatic-bravia",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-kodi.git"
+    "url": "git@github.com:muldy/pimatic-bravia.git"
   },
-  "configSchema": "kodi-plugin-config-schema.coffee",
+  "configSchema": "bravia-plugin-config-schema.coffee",
   "dependencies": {
-    "xbmc-ws": "git+https://github.com/Fjuxx/node-xbmc-ws"
+    "bravia": "git+https://github.com/alanreid/bravia.git"
   },
   "peerDependencies": {
     "pimatic": ">=0.8.0 <1.0.0"
